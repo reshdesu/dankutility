@@ -1,0 +1,11 @@
+On windows you can do this:
+
+python -m pip uninstall pip setuptools # Sometimes setuptools might be the problem
+
+This will uninstall pip and setuptools.
+
+After which you can reinstall them using
+
+python -m ensurepip
+
+This will install pip and setuptools.
